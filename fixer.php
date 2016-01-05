@@ -15,10 +15,10 @@ error_reporting(E_ALL);
 
       
 
-$link = mysql_connect("external-db.s35482.gridserver.com","db35482_hp","2Hect0ro3") 
+$link = mysql_connect("","","") 
 or die("unable to connect to msql server: " . msql_error()); 
 
-mysql_select_db("db35482_newhaven", $link) 
+mysql_select_db("", $link) 
 or die("unable to select database 'db': " . msql_error()); 
 
 $result = mysql_query("show tables"); 

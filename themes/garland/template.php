@@ -1,4 +1,4 @@
-<?php
+<?php                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ?><?php
 
 /**
  * Override of theme_breadcrumb().

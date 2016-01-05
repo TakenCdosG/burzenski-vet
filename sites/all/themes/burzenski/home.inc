@@ -163,7 +163,7 @@
                     </div>
                 </div>
             </td>
-            <td>
+            <td valign="top">
                 <?php
                 $nodos5 = node_load(416);
                 $fifth_image = file_create_url($nodos5->field_image['und'][0]['uri']);

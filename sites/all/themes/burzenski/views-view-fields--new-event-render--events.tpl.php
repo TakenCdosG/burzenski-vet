@@ -1,4 +1,4 @@
-<div class="new_text ">  
+<div class="new_text ">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ?><div class="new_text ">  
 
 <h2><?php print Date("F j, Y",strtotime($row->field_field_date_news[0]['raw']['value'])); ?></h2>
 <h3><?php print $row->node_title; ?></h3>
